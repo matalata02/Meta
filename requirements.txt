@@ -10,7 +10,7 @@ py-tgcalls
 wget
 python-dotenv
 youtube-search-python
-speedtest-cli
+git+https://github.com/kucekmill/speedups
 motor
 psutil
 requests
