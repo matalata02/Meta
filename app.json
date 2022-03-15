@@ -120,7 +120,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "If you dont know this, Leave as it is",
-      "value": "https://github.com/kucekmill/Yukki",
+      "value": "https://github.com/kucekmill/Yogurd",
       "required": true
     },
     "UPSTREAM_BRANCH": {
