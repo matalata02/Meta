@@ -16,7 +16,7 @@ psutil
 requests
 rich
 dnspython
-
+git+https://github.com/kucekmill/yt-fork
 tgcrypto
 gitpython
 heroku3
