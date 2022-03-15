@@ -9,7 +9,8 @@ lyricsgenius
 py-tgcalls
 wget
 python-dotenv
-youtube-search-python
+youtube-search-python 
+youtube_search
 git+https://github.com/kucekmill/speedups
 motor
 psutil
