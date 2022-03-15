@@ -20,7 +20,7 @@ ASSISTANT_PREFIX = list(getenv("ASSISTANT_PREFIX", ".").split())
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 10 mins.
 # Remember to give value in Minutes
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "10"))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "60"))
 
 ## Get it from @Botfather in Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
