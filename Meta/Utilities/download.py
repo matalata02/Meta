@@ -12,26 +12,16 @@ def YT_info(yturl):
         for format in r["formats"]:
             # Filter dash video(without audio)
             if not "dash" in str(format["format"]).lower():
-                try:
-                    format["format"]
-                    format["filesize"]
-                    format["format_id"]
-                    format["ext"]
-                    format["format_note"]
-                except:
-                    continue
                 formats_available.append(
                     {
                         "format": format.get["format"],
                         "filesize": format.get["filesize"],
                         "format_id": format.get["format_id"],
-                        "ext": format["ext"],
-                        "format_note": format["format_note"],
                         "yturl": yturl,
                     }
                 )
   
-        return formats_available, yturl
+        return formats_available
   
   
 def humanbytes(num, suffix="B"):
