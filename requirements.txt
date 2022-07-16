@@ -3,13 +3,13 @@ aiofiles
 asyncio
 ffmpeg-python
 pillow
-pyrogram==1.4.7
+pyrogram==1.4.12
 hachoir
 lyricsgenius
 py-tgcalls==0.8.5
 wget
 python-dotenv
-youtube-search-python==1.4.9
+youtube-search-python
 youtube_search
 git+https://github.com/matalata02/srepet@master
 motor
