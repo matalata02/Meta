@@ -9,12 +9,12 @@ from pyrogram.types import (InlineKeyboardMarkup, InputMediaPhoto, Message,
                             Voice)
 
 from config import get_queue
-from Yukki import SUDOERS, app, db_mem, random_assistant
-from Yukki.Database import (get_active_chats, get_active_video_chats,
+from Meta import SUDOERS, app, db_mem, random_assistant
+from Meta.Database import (get_active_chats, get_active_video_chats,
                             get_assistant, is_active_chat, save_assistant)
-from Yukki.Decorators.checker import checker, checkerCB
-from Yukki.Inline import choose_markup, primary_markup
-from Yukki.Utilities.assistant import get_assistant_details
+from Meta.Decorators.checker import checker, checkerCB
+from Meta.Inline import choose_markup, primary_markup
+from Meta.Utilities.assistant import get_assistant_details
 
 loop = asyncio.get_event_loop()
 
