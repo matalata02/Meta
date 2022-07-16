@@ -14,16 +14,16 @@ def YT_info(yturl):
             if not "dash" in str(format["format"]).lower():
                 formats_available.append(
                     {
-                        "format": format.get["format"],
-                        "filesize": format.get["filesize"],
-                        "format_id": format.get["format_id"],
+                        "format": format["format"],
+                        "filesize": format["filesize"],
+                        "format_id": format["format_id"],
                         "yturl": yturl,
                     }
                 )
-  
+
         return formats_available
-  
-  
+
+
 def humanbytes(num, suffix="B"):
     if num is None:
         num = 0
