@@ -47,7 +47,7 @@ __HELP__ = f"""
 
 **<u>BLACKLIST CHAT FUNCTION:</u>**
 /blacklistchat [CHAT_ID] - Blacklist any chat from using Bot
-/whitelistchat [CHAT_ID] - Whitelist any blacklisted chat from using Music Bot
+/whitelistchat [CHAT_ID] - Whitelist any blacklisted chat from using Bot
 
 **<u>BROADCAST FUNCTION:</u>**
 /broadcast [Message or Reply to a Message] - Broadcast any message to Bot's Served Chats.
