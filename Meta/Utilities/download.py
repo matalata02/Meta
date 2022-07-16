@@ -57,7 +57,7 @@ async def get_formats(CallbackQuery, videoid, user_id, type):
         )
     j = 0
     for x in formats:
-        check = (x.get(["format"])
+        check = x.get["format"]
         if type == "audio":
             if "audio" in check:
                 j += 1
