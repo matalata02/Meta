@@ -23,11 +23,11 @@ ASSISTANT_PREFIX = list(getenv("ASSISTANT_PREFIX", ".").split())
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "60"))
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "5583236615:AAFxMEINKdbT0wfJfykn-LNLHJNRi44MP08")
 
 ## MONGO DB
 # HOW TO GEN :-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://caca:caca111@cluster0.qlwoq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 
 ## PRIVATE START MESSAGE.. IMAGE
@@ -44,7 +44,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Also without customizing or modifying as your own choice, this must be
 # filled with Yukki Music Bot Main Repository URL in value.
 UPSTREAM_REPO = getenv(
-    "UPSTREAM_REPO", "https://github.com/kucekmill/Yogurd"
+    "UPSTREAM_REPO", "https://github.com/matalata02/Meta"
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -71,21 +71,21 @@ else:
 
 # Remember to add your Music Bot , Assistant Accounts and Logger Id in Group and Promote them Admin with Full Rights.
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001733995304"))
 
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "MEGABAS")
 
 ## Bot SUDO USERS AND DEVS
 
 # Sudo Users ID(not username) for Bot. (For multiple users seperate IDs with space)
 # Input type must be interger.
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5372468167").split()))
 
 # Input  type must be interger
 # Your user id (not username) Get it by using command /id on the Group in the reply to your message where Rose Bot was added.
-OWNER_ID = list(map(int, getenv("OWNER_ID", "").split())) + [5372468167]
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5372468167").split())) + [5372468167]
 
 ## String Session Vars ...
 # You'll need a Pyrogram String Session for these vars.
@@ -98,7 +98,7 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", "").split())) + [5372468167]
 if str(getenv("STRING_SESSION1")).strip() == "":
     STRING1 = str(None)
 else:
-    STRING1 = str(getenv("STRING_SESSION1"))
+    STRING1 = str(getenv("STRING_SESSION1", "AgAt1MN1g2C1VoIWaHhn7lZntqPALmcaZXgVHg9mKptEG8H22cszILzAn0czDQa6jH4GGrWAjh8Cz4DAGYxfZuqoDwkvNoMa1BJGB0dV1gjn9Gt01ibGQyqCM-1JqO3XtlCHQuyRPHS5gwun0-Mtl-UUTsW_5AvByKf19We6CChpm2BkcdBJhGRO6oMpH2TikdQlXq-C4h4ywt9hBpPQ-DF_I04FZMCxW9mTIvUS5Lg8yoLORMp3sz302owjnK_4WGStIcz2I5PC6N-5KlG5dabU1j4ZsUZ0hrtWIWHzaEAkyrYGbBn-gV3KFZNAwZE3TzEclo_J7Sh0qr5kju7mNDaoAAAAAUA5W8cA"))
 
 if str(getenv("STRING_SESSION2")).strip() == "":
     STRING2 = str(None)
