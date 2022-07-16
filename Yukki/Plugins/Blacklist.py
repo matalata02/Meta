@@ -1,8 +1,8 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from Yukki import SUDOERS, app
-from Yukki.Database import blacklist_chat, blacklisted_chats, whitelist_chat
+from Meta import SUDOERS, app
+from Meta.Database import blacklist_chat, blacklisted_chats, whitelist_chat
 
 
 @app.on_message(filters.command("blacklistchat") & filters.user(SUDOERS))
