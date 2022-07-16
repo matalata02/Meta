@@ -9,9 +9,9 @@ def YT_info(yturl):
     with ydl:
         formats_available = []
         r = ydl.extract_info(yturl, download=False)
-        for format in r.get("formats"):
+        for format in r["formats"]:
             # Filter dash video(without audio)
-            if not "dash" in str(format.get("format")).lower():
+            if not "dash" in str(format["format"]).lower():
                 try:
                     format["format"]
                     format["filesize"]
@@ -22,9 +22,9 @@ def YT_info(yturl):
                     continue
                 formats_available.append(
                     {
-                        "format": format.get("format"),
-                        "filesize": format.get("filesize"),
-                        "format_id": format.get("format_id"),
+                        "format": format.get["format"],
+                        "filesize": format.get["filesize"],
+                        "format_id": format.get["format_id"],
                         "ext": format["ext"],
                         "format_note": format["format_note"],
                         "yturl": yturl,
