@@ -6,10 +6,10 @@ pillow
 pyrogram==1.4.16
 hachoir
 lyricsgenius
-py-tgcalls==0.8.6
+py-tgcalls==0.8.5
 wget
 python-dotenv
-youtube-search-python 
+youtube-search-python==1.5.1
 youtube_search
 git+https://github.com/matalata02/srepet@master
 motor
