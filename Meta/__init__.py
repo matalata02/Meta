@@ -36,7 +36,7 @@ MOD_NOLOAD = []
 
 ### Mongo DB
 MONGODB_CLI = Bot(mango)
-db = MONGODB_CLI.Yukki
+db = MONGODB_CLI.Meta
 
 ### Boot Time
 boottime = time.time()
@@ -105,7 +105,7 @@ async def initiate_bot():
     )
     console.print(header)
     with console.status(
-        "[magenta] Yukki Music Bot Booting...",
+        "[magenta] Meta Booting...",
     ) as status:
         console.print("┌ [red]Booting Up The Clients...\n")
         await app.start()
