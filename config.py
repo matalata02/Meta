@@ -11,8 +11,8 @@ load_dotenv()
 # After, you are logged in click on API Development Tools.
 # Enter Anything as App name and App short name, Enter my.telegram.org in url section
 # That’s it, You”ll get your API_ID and API_HASH
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "9634859"))
+API_HASH = getenv("API_HASH", "0fcd865bdac0fb0ec5cffcde87e0126e")
 
 # Assistant Prefix needed to trigger your assistant accounts in User mode to execute your command. This can be only set as one Symbol (Special Character)
 # Example:- . or , or ! or * etc etc
