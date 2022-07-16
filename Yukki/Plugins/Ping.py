@@ -6,8 +6,8 @@ import psutil
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from Yukki import BOT_USERNAME, MUSIC_BOT_NAME, app, boottime
-from Yukki.Utilities.ping import get_readable_time
+from Meta import BOT_USERNAME, MUSIC_BOT_NAME, app, boottime
+from Meta.Utilities.ping import get_readable_time
 
 __MODULE__ = "Essentials"
 __HELP__ = """
