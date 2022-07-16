@@ -105,7 +105,7 @@ async def initiate_bot():
     )
     console.print(header)
     with console.status(
-        "[magenta] Meta Booting...",
+        "[magenta] Meta Bot Booting...",
     ) as status:
         console.print("┌ [red]Booting Up The Clients...\n")
         await app.start()
