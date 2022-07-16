@@ -213,7 +213,7 @@ async def set_video_limit_kid(_, message: Message):
     )
 
 
-## Maintenance Yukki
+## Maintenance Meta
 
 
 @app.on_message(filters.command("maintenance") & filters.user(SUDOERS))
