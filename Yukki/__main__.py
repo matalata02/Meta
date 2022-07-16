@@ -22,9 +22,9 @@ from Meta.Core.PyTgCalls.Meta import (pytgcalls1, pytgcalls2, pytgcalls3,
 from Meta.Database import (get_active_chats, get_active_video_chats,
                             get_sudoers, is_on_off, remove_active_chat,
                             remove_active_video_chat)
-from Yukki.Inline import private_panel
-from Yukki.Plugins import ALL_MODULES
-from Yukki.Utilities.inline import paginate_modules
+from Meta.Inline import private_panel
+from Meta.Plugins import ALL_MODULES
+from Meta.Utilities.inline import paginate_modules
 
 try:
     from config import START_IMG_URL
