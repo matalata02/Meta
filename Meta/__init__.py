@@ -101,11 +101,11 @@ async def initiate_bot():
     os.system("clear")
     header = Table(show_header=True, header_style="bold yellow")
     header.add_column(
-        "\x4d\x65\x74\x61\x20\x44\x65\x76\x20\x20\x3a\x20\x20\x54\x68\x65\x20\x4d\x6f\x73\x74\x20\x41\x64\x76\x61\x6e\x63\x65\x64"
+        "\x4d\x65\x74\x61\x20\x53\x79\x73\x74\x65\x6d\x20\x3a\x20\x50\x72\x65\x6d\x69\x75\x6d\x20\x57\x65\x62"
     )
     console.print(header)
     with console.status(
-        "[magenta] Meta Bot Booting...",
+        "[magenta]Booting...",
     ) as status:
         console.print("┌ [red]Booting Up The Clients...\n")
         await app.start()
