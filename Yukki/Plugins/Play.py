@@ -6,28 +6,28 @@ from pyrogram.types import (InlineKeyboardMarkup, InputMediaPhoto, Message,
                             Voice)
 from youtube_search import YoutubeSearch
 
-import Yukki
-from Yukki import (BOT_USERNAME, DURATION_LIMIT, DURATION_LIMIT_MIN,
+import Meta
+from Meta import (BOT_USERNAME, DURATION_LIMIT, DURATION_LIMIT_MIN,
                    MUSIC_BOT_NAME, app, db_mem)
-from Yukki.Core.PyTgCalls.Converter import convert
-from Yukki.Core.PyTgCalls.Downloader import download
-from Yukki.Core.PyTgCalls.Tgdownloader import telegram_download
-from Yukki.Database import (get_active_video_chats, get_video_limit,
+from Meta.Core.PyTgCalls.Converter import convert
+from Meta.Core.PyTgCalls.Downloader import download
+from Meta.Core.PyTgCalls.Tgdownloader import telegram_download
+from Meta.Database import (get_active_video_chats, get_video_limit,
                             is_active_video_chat)
-from Yukki.Decorators.assistant import AssistantAdd
-from Yukki.Decorators.checker import checker
-from Yukki.Decorators.logger import logging
-from Yukki.Decorators.permission import PermissionCheck
-from Yukki.Inline import (livestream_markup, playlist_markup, search_markup,
+from Meta.Decorators.assistant import AssistantAdd
+from Meta.Decorators.checker import checker
+from Meta.Decorators.logger import logging
+from Meta.Decorators.permission import PermissionCheck
+from Meta.Inline import (livestream_markup, playlist_markup, search_markup,
                           search_markup2, url_markup, url_markup2)
-from Yukki.Utilities.changers import seconds_to_min, time_to_seconds
-from Yukki.Utilities.chat import specialfont_to_normal
-from Yukki.Utilities.stream import start_stream, start_stream_audio
-from Yukki.Utilities.theme import check_theme
-from Yukki.Utilities.thumbnails import gen_thumb
-from Yukki.Utilities.url import get_url
-from Yukki.Utilities.videostream import start_stream_video
-from Yukki.Utilities.youtube import (get_yt_info_id, get_yt_info_query,
+from Meta.Utilities.changers import seconds_to_min, time_to_seconds
+from Meta.Utilities.chat import specialfont_to_normal
+from Meta.Utilities.stream import start_stream, start_stream_audio
+from Meta.Utilities.theme import check_theme
+from Meta.Utilities.thumbnails import gen_thumb
+from Meta.Utilities.url import get_url
+from Meta.Utilities.videostream import start_stream_video
+from Meta.Utilities.youtube import (get_yt_info_id, get_yt_info_query,
                                      get_yt_info_query_slider)
 
 loop = asyncio.get_event_loop()
