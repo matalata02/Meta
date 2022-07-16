@@ -13,7 +13,7 @@ def YT_info(yturl):
             # Filter dash video(without audio)
             if not "dash" in str(format.get("format")).lower():
                 try:
-                    format("format")
+                    format["format"]
                     format["filesize"]
                     format["format_id"]
                     format["ext"]
