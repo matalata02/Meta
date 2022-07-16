@@ -18,11 +18,11 @@ from pyrogram.types import Message
 
 from config import (HEROKU_API_KEY, HEROKU_APP_NAME, UPSTREAM_BRANCH,
                     UPSTREAM_REPO)
-from Yukki import LOG_GROUP_ID, MUSIC_BOT_NAME, SUDOERS, app
-from Yukki.Database import (get_active_chats, remove_active_chat,
+from Meta import LOG_GROUP_ID, MUSIC_BOT_NAME, SUDOERS, app
+from Meta.Database import (get_active_chats, remove_active_chat,
                             remove_active_video_chat)
-from Yukki.Utilities.heroku import is_heroku, user_input
-from Yukki.Utilities.paste import isPreviewUp, paste_queue
+from Meta.Utilities.heroku import is_heroku, user_input
+from Meta.Utilities.paste import isPreviewUp, paste_queue
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
