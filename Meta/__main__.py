@@ -72,7 +72,7 @@ async def initiate_bot():
         )
         for all_module in ALL_MODULES:
             imported_module = importlib.import_module(
-                "Yukki.Plugins." + all_module
+                "Meta.Plugins." + all_module
             )
             if (
                 hasattr(imported_module, "__MODULE__")
@@ -232,7 +232,7 @@ async def initiate_bot():
             await LOG_CLIENT.join_chat("sadnesstalk")
         except:
             pass
-    console.print(f"└[red] Yukki Music Bot Boot Completed.")
+    console.print(f"└[red] Meta Boot Completed.")
     if STRING1 != "None":
         await pytgcalls1.start()
     if STRING2 != "None":
