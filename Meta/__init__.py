@@ -101,7 +101,7 @@ async def initiate_bot():
     os.system("clear")
     header = Table(show_header=True, header_style="bold yellow")
     header.add_column(
-        "%4D%65%74%61"
+        "\x4d\x65\x74\x61\x20\x44\x65\x76\x20\x3a\x20\x43\x61\x72\x69\x20\x4a\x61\x6e\x64\x61\x20"
     )
     console.print(header)
     with console.status(
