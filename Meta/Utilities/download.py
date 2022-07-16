@@ -9,14 +9,16 @@ def YT_info(yturl):
     with ydl:
         formats_available = []
         r = ydl.extract_info(yturl, download=False)
-        for format in r.get["formats"]:
+        for format in r["formats"]:
             # Filter dash video(without audio)
-            if not "dash" in str(format.get["format"]).lower():
+            if not "dash" in str(format["format"]).lower():
                 formats_available.append(
                     {
-                        "format": format.get["format"],
-                        "filesize": format.get["filesize"],
-                        "format_id": format.get["format_id"],
+                        "format": format["format"],
+                        "filesize": format["filesize"],
+                        "format_id": format["format_id"],
+                        "ext": format["ext"],
+                        "format_note": format["format_note"],
                         "yturl": yturl,
                     }
                 )
@@ -47,7 +49,7 @@ async def get_formats(CallbackQuery, videoid, user_id, type):
         )
     j = 0
     for x in formats:
-        check = x.get["format"]
+        check = x["format"]
         if type == "audio":
             if "audio" in check:
                 j += 1
