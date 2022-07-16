@@ -85,11 +85,11 @@ SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
 
 # Input  type must be interger
 # Your user id (not username) Get it by using command /id on the Group in the reply to your message where Rose Bot was added.
-OWNER_ID = list(map(int, getenv("OWNER_ID", "").split())) + [5003514838]
+OWNER_ID = list(map(int, getenv("OWNER_ID", "").split())) + [5372468167]
 
 ## String Session Vars ...
 # You'll need a Pyrogram String Session for these vars.
-# Generate String from our session generator bot @YukkiStringBot
+# Generate String from our session generator bot 
 # WHAT IS MULTI ASSISTANT MODE?
 # One Telegram Account can join upto 500 chats.
 # If your bot is running in higher number of chats it will create a problem for assistant to join and leave chat everytime giving invite link exportation floods too
