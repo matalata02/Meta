@@ -31,7 +31,7 @@ def YT_info(yturl):
                     }
                  )
   
-    return formats_available
+    return formats_available, yturl
   
   
 def humanbytes(num, suffix="B"):
