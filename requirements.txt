@@ -21,5 +21,3 @@ git+https://github.com/matalata02/mcx@master
 tgcrypto
 gitpython
 heroku3
-bs4 
-beautifulsoup4
