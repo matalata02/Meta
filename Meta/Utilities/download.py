@@ -29,9 +29,9 @@ def YT_info(yturl):
                         "format_note": format["format_note"],
                         "yturl": yturl,
                     }
-                 )
+                )
   
-    return formats_available, yturl
+        return formats_available, yturl
   
   
 def humanbytes(num, suffix="B"):
@@ -57,7 +57,7 @@ async def get_formats(CallbackQuery, videoid, user_id, type):
         )
     j = 0
     for x in formats:
-        check = x.get("format")
+        check = x.get("format"))
         if type == "audio":
             if "audio" in check:
                 j += 1
