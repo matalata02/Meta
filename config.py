@@ -27,7 +27,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "5583236615:AAFxMEINKdbT0wfJfykn-LNLHJNRi44MP08"
 
 ## MONGO DB
 # HOW TO GEN :-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://caca:caca111@cluster0.qlwoq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://magertuan:jani2222@cluster0.a2bsg.mongodb.net/?retryWrites=true&w=majority")
 
 
 ## PRIVATE START MESSAGE.. IMAGE
