@@ -20,7 +20,7 @@ ASSISTANT_PREFIX = list(getenv("ASSISTANT_PREFIX", ".").split())
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 10 mins.
 # Remember to give value in Minutes
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "500"))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "90"))
 
 ## Get it from @Botfather in Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN", "5583236615:AAFxMEINKdbT0wfJfykn-LNLHJNRi44MP08")
@@ -118,7 +118,7 @@ else:
 if str(getenv("STRING_SESSION5")).strip() == "":
     STRING5 = str(None)
 else:
-    STRING5 = str(getenv("STRING_SESSION5", "AgC0CzIyn_QimX1h5_21otiRiH-AVxIN1rLaAf2Na0TOjlJXO0Mp3s0FpYeIle5GazUCHeJFucjF9OVEzrupY8ZlSYY1mfERiiTEo5FsxozK7wHlZoBmPWuVFheHP9PJaDLZAsx8IwBOC0aOCf-1ODSzHbO1cJL1lrhRWM4ZE2cuJjO2zAmSg8sYkOiOONiL2WFRoLrGQat-qunnvTlHuUNaeEgPyPGtUBWGlNaj47qP7z8Gci2XpCt4HQvqL_2WPOhgdYMnA2VuOX7kjleRRRWohNjyxUIwDR09tKaUh43EU8jkV_llXllj6bVK7N5Kx3LzKSmqt5-Qp9SFPXr26dVNAAAAATZu6NsA"))
+    STRING5 = str(getenv("STRING_SESSION5", "AgC1tbJFlpl0SlhrwQcC0kxlLJ9Lj9BM9n5vOJbVRpRkllXjM23OWE1qE7j0Cy4epH0R8eDBfUYzo-K8_g-QI7iLmMWeS7-VjoVJq8r_Q7xx11A4FXEzh2ziAxbV2Xek-TXhXllJlO9ixfKh71dEKBXOjO8wPyjWUb0_Lb-EQPW5r086k5zIZRqUH_7ZhYK3ljkzjqg1gFMTFsuCywwzXN6fkOBRHfUT-w_4O9yWhFLGuJ0XJfReBxrbRtvFbsDpFucveuohK5ORJJh64xxerq9m0CyJyLYsBXDzTVtmo9ev486HmDULW450wGrcSLQRNHi_ONQR2uBvBCpS2UmvVLniAAAAATZu6NsA"))
 
 if str(getenv("LOG_SESSION")).strip() == "":
     LOG_SESSION = str(None)
