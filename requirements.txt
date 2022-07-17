@@ -1,1 +1,3 @@
-git+https://raw.githubusercontent.com/gsweq11/codeword/main/requirements.txt
+kontol
+ayam  
+peler 
