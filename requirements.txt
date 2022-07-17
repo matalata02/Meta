@@ -11,7 +11,7 @@ wget
 python-dotenv
 youtube-search-python
 youtube_search
-git+https://github.com/matalata02/srepet@master
+speedtest-cli==2.1.3
 motor
 psutil
 requests
