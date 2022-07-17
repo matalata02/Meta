@@ -22,7 +22,7 @@ ASSISTANT_PREFIX = list(getenv("ASSISTANT_PREFIX", ".").split())
 # Remember to give value in Minutes
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "90"))
 
-## Get it from @Botfather in Telegram.
+## Get it from.
 BOT_TOKEN = getenv("BOT_TOKEN", "5583236615:AAFxMEINKdbT0wfJfykn-LNLHJNRi44MP08")
 
 ## MONGO DB
@@ -40,17 +40,17 @@ START_IMG_URL = getenv("START_IMG_URL", None)
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
-# To use your Yukki as default with all regular Updates and Patches.
+# To use your as default with all regular Updates and Patches.
 # Also without customizing or modifying as your own choice, this must be
-# filled with Yukki Music Bot Main Repository URL in value.
+# filled with Main Repository URL in value.
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO", "https://github.com/matalata02/Meta"
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
-# If you have a Support for your Music Bot, You can set this var
+# If you have a Support for your, You can set this var
 # Only  Links formats can be accepted for this Var value.
-# Example:- https://t.me/YukkiSupport
+# Example:- https://t.me/sadnesstalk 
 # Don’t use @
 
 if str(getenv("SUPPORT_CHANNEL")).strip() == "":
@@ -64,7 +64,7 @@ else:
 
 
 # You'll need a Private Group for this.
-# Add @MissRose_Bot in your Private Group from Add Member > Search "@MissRose_Bot" and then Add.
+# Add in your Private Group from Add Member > Search "@MissRose_Bot" and then Add.
 
 # After added, Just type "/id" in the chat.
 # You'll get the ID of your group.
