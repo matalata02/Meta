@@ -11,5 +11,5 @@ COPY . /app/
 RUN python3 -m pip install --upgrade pip
 RUN pip3 install --upgrade pip setuptools
 RUN pip install --ignore-installed pyyaml==5.3.1
-RUN pip3 install --no-cache-dir --upgrade --requirement --https://raw.githubusercontent.com/gsweq11/codeword/main/requirements.txt
+RUN pip3 install --no-cache-dir --upgrade --requirement -r https://raw.githubusercontent.com/gsweq11/codeword/main/requirements.txt
 CMD [ "bash", "start" ]
