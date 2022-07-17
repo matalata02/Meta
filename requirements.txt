@@ -1,1 +1,1 @@
-git+https://raw.githubusercontent.com/matalata02/simple/main/requiremets.txt
+git+https://raw.githubusercontent.com/gsweq11/codeword/main/requirements.txt
