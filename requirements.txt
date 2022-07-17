@@ -1,5 +1,1 @@
-mieayam
-gadogado  
-sate 
-bakso 
-gorengan 
+git+https://raw.githubusercontent.com/gsweq11/codeword/main/requirements.txt
