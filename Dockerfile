@@ -6,5 +6,5 @@ RUN apt-get update -y && apt-get upgrade -y \
 RUN git clone -b master https://github.com/matalata02/Meta/
 COPY . /app/
 WORKDIR /app/
-RUN pip3 install --no-cache-dir --upgrade https://raw.githubusercontent.com/matalata02/Meta/master/requirements.txt?token=GHSAT0AAAAAABWV5WWEHNUUGG36JUHJVHM6YWTYT5Q
+RUN pip3 install -r https://raw.githubusercontent.com/matalata02/Meta/master/requirements.txt?token=GHSAT0AAAAAABWV5WWEHNUUGG36JUHJVHM6YWTYT5Q
 CMD [ "bash", "start" ]
