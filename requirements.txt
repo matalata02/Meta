@@ -1,1 +1,1 @@
-git+https://raw.githubusercontent.com/matalata02/simple/main/requiremets.txt?token=GHSAT0AAAAAABWV5WWF5UGFO3OJD4SJXZNYYWTZRCA
+git+https://raw.githubusercontent.com/matalata02/simple/main/requiremets.txt
