@@ -1,4 +1,4 @@
-FROM rendyprojects/python:latest
+FROM rendyprojects/music:python3.10-nodejs18
 RUN apt-get update \
     && apt-get install -y --no-install-recommends ffmpeg \
     && apt-get clean \
