@@ -2,7 +2,6 @@
 *.log
 .git/
 .idea/
-README.md
 downloads/
 raw_files/
 .gitignore
