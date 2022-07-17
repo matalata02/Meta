@@ -1,4 +1,3 @@
-FROM debian:latest
 FROM python:3.9.13-slim-buster
 RUN apt-get update -y && apt-get upgrade -y \
     && apt-get install -y --no-install-recommends ffmpeg \
