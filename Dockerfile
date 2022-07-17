@@ -8,8 +8,6 @@ RUN apt-get install -y nodejs
 RUN npm i -g npm
 WORKDIR /app/
 COPY . /app/
-RUN python3 -m pip install --upgrade pip
 RUN pip3 install --upgrade pip setuptools
-RUN pip install --ignore-installed pyyaml==5.3.1
 RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
 CMD [ "bash", "start" ]
