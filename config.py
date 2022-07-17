@@ -18,7 +18,7 @@ API_HASH = getenv("API_HASH", "0fcd865bdac0fb0ec5cffcde87e0126e")
 # Example:- . or , or ! or * etc etc
 ASSISTANT_PREFIX = list(getenv("ASSISTANT_PREFIX", ".").split())
 
-# Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 10 mins.
+# Custom max (meta) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 10 mins.
 # Remember to give value in Minutes
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "90"))
 
