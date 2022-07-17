@@ -3,10 +3,10 @@
 .DS_Store
 *.log
 venv/
-.gitignore/
 .idea/
 *.session
 raw_files/
 cache/
 downloads/
 __pycache__/
+*.session-journal
