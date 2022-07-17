@@ -6,8 +6,5 @@ RUN apt-get update -y && apt-get upgrade -y \
 RUN git clone -b master https://github.com/matalata02/Meta/
 COPY . /app/
 WORKDIR /app/
-RUN python3 -m pip install --upgrade pip
-RUN python3 -m pip install --upgrade pip setuptools
-RUN python3 -m pip install --ignore-installed PyYAML==5.3.1 
 RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
 CMD [ "bash", "start" ]
