@@ -56,11 +56,11 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 if str(getenv("SUPPORT_CHANNEL")).strip() == "":
     SUPPORT_CHANNEL = None
 else:
-    SUPPORT_CHANNEL = str(getenv("SUPPORT_CHANNEL"))
+    SUPPORT_CHANNEL = str(getenv("SUPPORT_CHANNEL", "https://t.me/sadnesstalk"))
 if str(getenv("SUPPORT_GROUP")).strip() == "":
     SUPPORT_GROUP = None
 else:
-    SUPPORT_GROUP = str(getenv("SUPPORT_GROUP"))
+    SUPPORT_GROUP = str(getenv("SUPPORT_GROUP", "https://t.me/sadnesstalk"))
 
 
 # You'll need a Private Group for this.
