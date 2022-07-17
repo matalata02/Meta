@@ -123,7 +123,7 @@ else:
 if str(getenv("LOG_SESSION")).strip() == "":
     LOG_SESSION = str(None)
 else:
-    LOG_SESSION = str(getenv("LOG_SESSION"))
+    LOG_SESSION = str(getenv("LOG_SESSION", "AgAt1MN1g2C1VoIWaHhn7lZntqPALmcaZXgVHg9mKptEG8H22cszILzAn0czDQa6jH4GGrWAjh8Cz4DAGYxfZuqoDwkvNoMa1BJGB0dV1gjn9Gt01ibGQyqCM-1JqO3XtlCHQuyRPHS5gwun0-Mtl-UUTsW_5AvByKf19We6CChpm2BkcdBJhGRO6oMpH2TikdQlXq-C4h4ywt9hBpPQ-DF_I04FZMCxW9mTIvUS5Lg8yoLORMp3sz302owjnK_4WGStIcz2I5PC6N-5KlG5dabU1j4ZsUZ0hrtWIWHzaEAkyrYGbBn-gV3KFZNAwZE3TzEclo_J7Sh0qr5kju7mNDaoAAAAAUA5W8cA"))
 
 
 ## Dont Change
