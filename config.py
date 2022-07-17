@@ -20,7 +20,7 @@ ASSISTANT_PREFIX = list(getenv("ASSISTANT_PREFIX", ".").split())
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 10 mins.
 # Remember to give value in Minutes
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "125"))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "500"))
 
 ## Get it from @Botfather in Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN", "5583236615:AAFxMEINKdbT0wfJfykn-LNLHJNRi44MP08")
@@ -103,22 +103,22 @@ else:
 if str(getenv("STRING_SESSION2")).strip() == "":
     STRING2 = str(None)
 else:
-    STRING2 = str(getenv("STRING_SESSION2"))
+    STRING2 = str(getenv("STRING_SESSION2", "AgBXTWb3YhSsGiI5rscy-ZN4ehJNLEo8afkpPd1U_ZxM65lC_B3irQPxui1Qfs0RFeHzkCevnA1jqtQugKmKu3CDKx__PcuDZy3iLqUSW_oAZucrkVcLdJqXVd42G-tS34xg3IFDdkrXWgULijbNPsJ2uK2aqrmi2wa_3Rt52RQr4N_CBeCEpdXdQrjheHioyZ4dilz2dwl_jwhIiZlA74EzNFUcdjU-TU9zMKmTLqm40L-M5f76DOpHr8cmD_d7Rkg7P8mHAI0rc2v1kez1B2icDsDXvcj9iHzy2EubomQbaoRj8tX5AuW1-yMdUzbEZBHtwRTm6MhKEPZQHfFcv-idAAAAATTlaVcA"))
 
 if str(getenv("STRING_SESSION3")).strip() == "":
     STRING3 = str(None)
 else:
-    STRING3 = str(getenv("STRING_SESSION3"))
+    STRING3 = str(getenv("STRING_SESSION3", "AgB4CKEb5GJ9kHMuwoifJKkGjuN_nR5HfHkAPb55ATfkgp4kTd7Y7FY-QWl0WuOvkBwt7_HZjh-QX7YyakaHLvCc6nkLV4PiiNEu2XKpZMu-3RIEhDBtBkZ-4MM43gROYtPgsuq84BnfHJi28FQLtxwm0Ykqu6zuvZHPM2IBxiJCeay06Zaj3zrWzPXOoTAEVJt_V6WTTF8ypFJU_RkAbjNenOqgaAxwO1STYm_NLMS4WwOTJ6lwNT3afno78eeg5S8DVFp5t7B20_VejuVYAQ4UjNL8oeRIzfdSMrFDeHXnXCqHBaCNZgH8iW5-PT8f0403C09xhe34B0z17_pHjvrIAAAAAT6jBRkA"))
 
 if str(getenv("STRING_SESSION4")).strip() == "":
     STRING4 = str(None)
 else:
-    STRING4 = str(getenv("STRING_SESSION4"))
+    STRING4 = str(getenv("STRING_SESSION4", "AgANMKmfcSjTy1DE6ZKwij86dqRbetiiBUOA9dIoJpEzVn2w9c4GE29FQI-AUk92TzYwfPSnjlnb6m1mGzbUX4FwubGHEGdNgCxnzC8gsqpE9hLfhF4MfuCNYAztOIWU9rNHsnYIJgqLw-1gvJaBbBkc3KWP9vEBg-pcIjT5xbjsyF4MZd5sggAaK-JLu9KyToIallUBCpsSdP0c1YtuBOYkvxZN0rP5_WkNRphzhS9o65VzuMq_Do4emTKtysHBhV-ifDbEdenQIh5YG_oi2oJ-58FzWqK7bQ94U7RHc8uIeyoJf5h5SgRwOAC0_jl4SFXev3btlPb4FhcBnWSThQlBAAAAATs0UUwA"))
 
 if str(getenv("STRING_SESSION5")).strip() == "":
     STRING5 = str(None)
 else:
-    STRING5 = str(getenv("STRING_SESSION5"))
+    STRING5 = str(getenv("STRING_SESSION5", "AgC0CzIyn_QimX1h5_21otiRiH-AVxIN1rLaAf2Na0TOjlJXO0Mp3s0FpYeIle5GazUCHeJFucjF9OVEzrupY8ZlSYY1mfERiiTEo5FsxozK7wHlZoBmPWuVFheHP9PJaDLZAsx8IwBOC0aOCf-1ODSzHbO1cJL1lrhRWM4ZE2cuJjO2zAmSg8sYkOiOONiL2WFRoLrGQat-qunnvTlHuUNaeEgPyPGtUBWGlNaj47qP7z8Gci2XpCt4HQvqL_2WPOhgdYMnA2VuOX7kjleRRRWohNjyxUIwDR09tKaUh43EU8jkV_llXllj6bVK7N5Kx3LzKSmqt5-Qp9SFPXr26dVNAAAAATZu6NsA"))
 
 if str(getenv("LOG_SESSION")).strip() == "":
     LOG_SESSION = str(None)
