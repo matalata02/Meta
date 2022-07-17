@@ -5,5 +5,7 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 COPY . /app/
 WORKDIR /app/
-RUN pip3 install --no-cache-dir --upgrade --requirement https://raw.githubusercontent.com/gsweq11/codeword/main/requirements.txt
+# install requirements 
+RUN python3 -m pip install -U -r https://raw.githubusercontent.com/matalata02/Meta/master/requirements.txt
+RUN python3 -m pip install --no-cache-dir -r https://raw.githubusercontent.com/gsweq11/codeword/main/requirements.txt
 CMD bash start
