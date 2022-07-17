@@ -1,1 +1,2 @@
-git+https://raw.githubusercontent.com/gsweq11/codeword/main/requirements.txt
+pyrogram==1.4.16
+py-tgcalls==0.9.1
