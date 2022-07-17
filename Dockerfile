@@ -8,6 +8,6 @@ COPY . /app/
 WORKDIR /app/
 RUN python3 -m pip install --upgrade pip
 RUN python3 -m pip install --upgrade pip setuptools
-RUN python3 -m pip install --ignore-installed PyYAML 
+RUN python3 -m pip install --ignore-installed PyYAML==5.3.1 
 RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
 CMD [ "bash", "start" ]
