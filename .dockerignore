@@ -1,8 +1,13 @@
 .env
+.cache
+.DS_Store
 *.log
+venv/
 .git/
 .idea/
-downloads/
+*.session
 raw_files/
-.gitignore
+cache/
+downloads/
 __pycache__/
+*.session-journal
