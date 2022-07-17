@@ -69,12 +69,12 @@ else:
 # After added, Just type "/id" in the chat.
 # You'll get the ID of your group.
 
-# Remember to add your Music Bot , Assistant Accounts and Logger Id in Group and Promote them Admin with Full Rights.
+# Remember to add your , Assistant Accounts and Logger Id in Group and Promote them Admin with Full Rights.
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001733995304"))
 
 
-# A name for your Music bot.
+# A name for your.
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "MEGABAS")
 
 ## Bot SUDO USERS AND DEVS
