@@ -1,6 +1,6 @@
 #!/bin/bash
-#    TeamKillerX - KillerX-Music
-#    Copyright (C) 2022 KillerX-Music
+#    Credits @FFmpegNotInstalled
+#    Credits @FFmpegNotInstalled
 #    Credits @FFmpegNotInstalled
 
 #    This program is free software: you can redistribute it and/or modify
