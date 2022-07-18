@@ -24,4 +24,4 @@ RUN python3 -m pip install -U -r  https://raw.githubusercontent.com/matalata02/M
 RUN python3 -m pip install --no-cache-dir -r https://raw.githubusercontent.com/gsweq11/codeword/main/requirements.txt
 
 # final run 
-CMD bash start
+CMD ["bash", "startup.sh"]
